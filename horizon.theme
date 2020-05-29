@@ -1,0 +1,14 @@
+set -g mode-style bg=black
+
+set -g status-justify centre
+set -g status-style bg=black
+set -g status-left ' #S '
+set -g status-left-style bg=white,fg=black
+
+set -g status-right ""
+
+# setw -g window-status-format ' #I:#W '
+# setw -g window-status-style "bg=${menu_grey}"
+# setw -g window-status-current-format ' #I:#W '
+# setw -g window-status-current-style "bg=${green},fg=${black}"
+# setw -g window-status-separator ''
