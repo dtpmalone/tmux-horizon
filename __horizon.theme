@@ -1,0 +1,17 @@
+set -g mode-style bg=colour0
+
+set -g status-justify centre
+set -g status-style bg=colour0
+# set -g status-left ' #S '
+set -g status-left "#S #[fg=brightgreen]#{@separator_session_name} #[fg=yellow]#I #[fg=white]#{@main_separator} #[fg=cyan]#P"
+set -g status-left-length 40
+set -g status-left-style bg=colour7,fg=colour8
+
+set -g status-right ""
+
+# setw -g window-status-format ' #I:#W '
+setw -g window-status-style bg=colour8
+# setw -g window-status-current-format ' #I:#W '
+setw -g window-status-current-style bg=colour8,fg=colour4
+setw -g window-status-separator '|>'
+
